@@ -2,10 +2,17 @@ body{
   margin: 0;
 }
 
+main{
+  width: 80%;
+    margin: 0 auto;
+  }
+
 .banner{
   background-image: url(../img/pattern.png);
   background-color: rgb(59, 151, 250);
   height: 120px;
+  background-repeat: repeat;
+  background-size: 300px;
   }
 
   #booleaner{
@@ -19,11 +26,15 @@ body{
     text-align: center justify;
   }
 
-  .t_h3{
+  .t_p1{
+    font-size: 20px;
+  }
+
+  .t_p2{
     font-size: 15px;
   }
 
-  .t_h2, .t_h3{
+  .t_p1, .t_p2{
     color: gray;
     text-align: justify;
     margin: 0px 40px;
@@ -35,10 +46,7 @@ body{
     text-decoration: none;
   }
 
-  main, footer{
-    margin: 0px 40px;
-  }
-
+  
   #images{
     margin: 0px 0px;
   }
@@ -64,5 +72,21 @@ body{
     margin-top: 40px;
     margin-bottom: 5px;
     color: gray;
+    font-size: 20px;
+  }
+
+  .monitor1{
+    background-image: url(../img/monitor.jpg);
+    width: 300px;
+    height: 200px;
+    color: white;
+    font-size: 20px;
+  }
+
+   .monitor2{
+    background-image: url(../img/graph.jpg);
+    width: 300px;
+    height: 200px;
+    color: white;
     font-size: 20px;
   }
