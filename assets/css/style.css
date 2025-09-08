@@ -4,8 +4,8 @@ body{
 
 main{
   width: 80%;
-    margin: 0 auto;
-  }
+  margin: 0 auto;
+}
 
 .banner{
   background-image: url(../img/pattern.png);
@@ -13,80 +13,83 @@ main{
   height: 120px;
   background-repeat: repeat;
   background-size: 300px;
-  }
+}
 
-  #booleaner{
-    height: 50px;
-    margin: 65px;
-  }
+#booleaner{
+  height: 50px;
+  margin: 65px;
+}
 
-  .t_h1{
-    font-size: 2.5rem;
-    margin: 20px 40px 1px;
-    text-align: center justify;
-  }
+.t_h1{
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
 
-  .t_p1{
-    font-size: 20px;
-  }
+.t_p1{
+  font-size: 20px;
+  margin: 0;
+}
 
-  .t_p2{
-    font-size: 15px;
-  }
+.t_p2{
+  font-size: 15px;
+  margin: 0;
+}
 
-  .t_p1, .t_p2{
-    color: gray;
-    text-align: justify;
-    margin: 0px 40px;
-  }
+.t_p1, .t_p2{
+  color: gray;
+}
 
-  
-  a{
-    color: rgb(37, 174, 226);
-    text-decoration: none;
-  }
 
-  
-  #images{
-    margin: 0px 0px;
-  }
+a{
+  color: rgb(37, 174, 226);
+  text-decoration: none;
+}
 
-  table, th, td{
-    border: solid 1px;
-  }
+figcaption{
+  font-size: 10px;
+}
 
-  thead{
-    background-color: rgb(0, 152, 210);
-    color: white;
-  }
+table{
+  padding: 10px;
+  border-collapse: collapse;
+}
 
-  th{
-    border-color: aqua;
-  }
+.t_header{
+  background-color: rgb(0, 152, 210);
+  color: white;
+}
 
- tr:nth-child(odd){
+tr.t_body:nth-child(odd){
   background-color: rgb(161, 224, 239);
 }
 
-  h2{
-    margin-top: 40px;
-    margin-bottom: 5px;
-    color: gray;
-    font-size: 20px;
-  }
+.w_25{
+  width: 25%;
+}
 
-  .monitor1{
-    background-image: url(../img/monitor.jpg);
-    width: 300px;
-    height: 200px;
-    color: white;
-    font-size: 20px;
-  }
+.w_50{
+  width: 50%;
+}
 
-   .monitor2{
-    background-image: url(../img/graph.jpg);
-    width: 300px;
-    height: 200px;
-    color: white;
-    font-size: 20px;
-  }
+h3{
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: gray;
+  font-size: 16px;
+}
+
+.monitor1{
+  background-image: url(../img/monitor.jpg);
+  width: 300px;
+  height: 200px;
+  color: white;
+  font-size: 20px;
+}
+
+.monitor2{
+  background-image: url(../img/graph.jpg);
+  width: 300px;
+  height: 200px;
+  color: white;
+  font-size: 20px;
+}
